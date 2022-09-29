@@ -1,8 +1,10 @@
 import React from 'react';
-// import Navbar from '../../components/Navbar/Navbar';
 import Home from '../Home/Home';
-import Footer from '../../components/Footer/Footer';
-import { BrowserRouter, Switch, Route,Routes} from 'react-router-dom';
+import OurMotive from '../OurMotive/OurMotive'
+import AboutUS from '../AboutUS/AboutUS'
+import ForHelpers from '../ForHelpers/ForHelpers'
+import ForHelpSeekers from '../ForHelpSeekers/ForHelpSeekers'
+import { BrowserRouter, Route,Routes} from 'react-router-dom';
 
 
 const Layout = () => {
@@ -12,12 +14,14 @@ const Layout = () => {
         <BrowserRouter>
        <div className="layout">
         
-         {/* <Navbar /> */}
         
          <Routes>
          <Route exact path='/' element={<Home />} />
+         <Route exact path='/OurMotive' element={<OurMotive />} />
+         <Route exact path='/AboutUS' element={<AboutUS />} />
+         <Route exact path='/ForHelpers' element={<ForHelpers />} />
+         <Route exact path='/ForHelpSeekers' element={<ForHelpSeekers />} />
         </Routes>
-        <Footer />
             
 
           

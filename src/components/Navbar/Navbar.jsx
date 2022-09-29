@@ -1,10 +1,9 @@
-import React from 'react';
-import "./Navbar.css";
-
-function Navbar() {
+import React from 'react'
+import './Navbar.css'
+const Navbar = () => {
   return (
     <div>Navbar</div>
   )
 }
 
-export default Navbar;
+export default Navbar

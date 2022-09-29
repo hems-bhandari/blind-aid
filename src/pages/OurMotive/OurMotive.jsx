@@ -1,8 +1,12 @@
 import React from 'react'
 import './OurMotive.css'
+import Navbar from '../../components/Navbar/Navbar'
 const OurMotive = () => {
   return (
-    <div>OurMotive</div>
+    <div>
+      <Navbar />
+      OurMotive
+      </div>
   )
 }
 

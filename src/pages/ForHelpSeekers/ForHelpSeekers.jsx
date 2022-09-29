@@ -1,8 +1,12 @@
 import React from 'react'
 import './ForHelpSeekers.css'
+import Navbar from '../../components/Navbar/Navbar'
 const ForHelpSeekers = () => {
   return (
-    <div>ForHelpSeekers</div>
+    <div>
+      <Navbar />
+      ForHelpSeekers
+      </div>
   )
 }
 

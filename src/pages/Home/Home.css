@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Quicksand:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100% !important;
+}
+
+.main {
+    background-color: black;
+
+}
+
+
+.brk {
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    margin-top: 7px;
+    box-shadow: 0px 17px 52px -21px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 17px 52px -21px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 0px 17px 52px -21px rgba(255, 255, 255, 1);
+}
+
+.txt h1 {
+    font-size: 35px;
+    color: yellow;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.txt p {
+    text-align: center;
+    color: yellow;
+    font-size: 20px;
+
+}
+
+.intro {
+    text-align: center;
+    color: yellow;
+    font-size: 20px;
+}
+
+
+.ftr1 {
+    height: 300px;
+    background: black;
+    padding-top: 30px;
+}
+
+.ftr2 {
+    text-align: center;
+    color: yellow;
+    font-size: 15px;
+}
+
+.c1 p {
+    color: yellow;
+    font-family: 'Padauk', sans-serif;
+    font-weight: bold;
+}
+
+.c2 p {
+    font-family: 'Padauk', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color: yellow;
+
+}
+
+.c2 {
+    margin-left: 30px;
+}
+
+.c2 a {
+    text-decoration: none;
+    color: yellow;
+    font-size: 15px;
+}
+
+.c2 a:hover {
+    color: white;
+}
+
+.c3 p {
+    font-weight: bold;
+    font-family: 'Padauk', sans-serif;
+    font-size: 30px;
+    color: yellow;
+
+}
+
+.c3 a {
+    text-decoration: none;
+    color: yellow;
+    font-size: 25px;
+    margin-left: 10px;
+
+}
+
+
+@media (max-width: 991px) {
+    .pic1 {
+        margin-left: -150px;
+    }
+
+    .c2 {
+        margin-left: 10px;
+        margin-bottom: 30px;
+    }
+
+    .c3 {
+        margin-left: 10px;
+        margin-bottom: 30px;
+    }
+}
+
+.navbar {
+    background-color: black;
+}
+
+.nav-link {
+    color: yellow;
+    font-size: 15px;
+    font-family: "Rubik", sans-serif;
+    border: 3px solid yellow;
+    border-radius: 30px;
+    margin-left: 3px;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    text-transform: uppercase;
+    transition: 1s;
+}
+
+.nav-link:hover {
+    color: white !important;
+
+}
+
+.navbar-brand img {
+    width: 100%;
+    height: 120px;
+    transform: scale(1.4);
+
+}
+
+.dropdown-item {
+
+    color: yellow;
+}
+
+.dropdown-menu {
+    background-color: black;
+}
+
+/*.logo-main{
+margin-top: 80px;
+transition: .4s;
+ position: relative;
+animation: mymove 1s infinite;
+z-index: 50;
+width: 80%;
+height: 120px;
+transform: scale(1.4);
+
+}
+
+@keyframes mymove {
+from {transform: scale(1.5);}
+to {transform: scale(1.7);}
+
+}
+
+
+.logo-main:hover{
+transform: scale(1.7);
+}*/
+.img-1 {
+    margin-left: 70px;
+    border-bottom: 8px solid yellow;
+    border-radius: 30px 0px 0px 30px;
+    filter: brightness(0.80);
+
+    transition: 1s;
+}
+
+.img-2 {
+    margin-left: -140px;
+    border-bottom: 8px solid yellow;
+    border-radius: 0px 30px 30px 0px;
+    filter: brightness(0.80);
+
+    transition: 1s;
+}
+
+.img-2:hover,
+.img-1:hover {
+    transform: scale(1.2);
+}
+
+.text-1 {
+    font-weight: lighter;
+    font-family: 'Quicksand', sans-serif;
+    color: white !important;
+}
+
+.text-2 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.intro p {
+    width: 67%;
+    margin: auto;
+    color: white !important;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.img-b {
+    border-radius: 50%;
+
+}
+
+.img-c {
+    filter: contrast(5000%);
+}
+
+.img-g {
+    margin-right: 40px;
+}
+
+.img-h {
+    margin-left: 40px;
+}
+
+.navbar-toggler {
+    color: white;
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+
+@media screen and (max-width: 991px) {
+    .img-1 {
+        margin-left: -5px;
+        border-radius: 0px;
+    }
+
+    .img-2 {
+        margin-left: -5px;
+        border-radius: 0px;
+    }
+
+    .intro p {
+        width: 80%;
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .collab {
+        display: flex;
+        transform: scale(0.6);
+        margin-left: -60px;
+    }
+}

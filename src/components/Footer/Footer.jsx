@@ -1,5 +1,10 @@
 import React from 'react'
 import './Footer.css'
+import 'bootstrap/dist/css/bootstrap.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
+import { faFacebook } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 const Footer = () => {
   return (
     <div>
@@ -15,16 +20,16 @@ const Footer = () => {
           <span class="d1">
             <a href="/OurMotive"> Our Motive</a><br />
             <a href="/AboutUS"> About Us</a><br />
-            <a href="ForHelpers"> For helpers</a><br />
-            <a href="ForHelpSeekers"> For Help Seekers</a><br />
+            <a href="/ForHelpers"> For helpers</a><br />
+            <a href="/ForHelpSeekers"> For Help Seekers</a><br />
           </span>
 
         </div>
         <div class="col-lg-3 c3">
           <p>Contact US</p>
-          <a href="linkedin.com" class="in"><i class="fab fa-linkedin"></i></a>
-          <a href="mailto:test@test.com" class="gm"><i class="fa-solid fa-envelope"></i></a>
-          <a href="facebook.com" class="fb"><i class="fa-brands fa-facebook-square"></i></a>
+          <a href="facebook.com" class="gm"><FontAwesomeIcon icon={faFacebook} /></a>
+          <a href="mailto:test@test.com" class="gm"><FontAwesomeIcon icon={faEnvelope} /></a>
+          <a href="linkedin.com" class="gm"><FontAwesomeIcon icon={faLinkedin} /></a>
         </div>
 
 

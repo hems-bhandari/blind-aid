@@ -128,7 +128,7 @@ body {
 }
 
 .nav-link {
-    color: yellow;
+    color: yellow !important;
     font-size: 15px;
     font-family: "Rubik", sans-serif;
     border: 3px solid yellow;

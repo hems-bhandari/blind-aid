@@ -1,7 +1,7 @@
 {
   "name": "bya-app",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "http://hems-bhandari.github.io/blind-youth-association",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",

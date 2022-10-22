@@ -5,10 +5,12 @@ const Navbar = () => {
     <div>
       <nav class="navbar navbar-expand-lg navbar-light container">
         <div class="container-fluid">
-          <a class="navbar-brand" href="/"><img src="imgb/logo1.png" alt='Logo of BlindAid.com' className='logo'></img></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span role="img" aria-labelledby="cross" className="navbar-toggler-icon">✖️</span>
-          </button>
+          <div>
+            <a class="navbar-brand" href="/"><img src="imgb/logo1.png" alt='Logo of BlindAid.com' className='logo'></img></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span role="img" aria-labelledby="cross" className="navbar-toggler-icon">✖️</span>
+            </button>
+          </div>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">

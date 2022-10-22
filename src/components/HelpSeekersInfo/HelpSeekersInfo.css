@@ -1,0 +1,16 @@
+.main{
+    background: black;
+}
+.h{
+    margin-left: 430px;
+}
+.txt h1{
+    color: yellow;
+    text-align: center;
+}
+.txt p{
+     color:white;
+     font-family: 'Quicksand', sans-serif;
+     font-size: 18px;
+     font-weight: lighter;
+}

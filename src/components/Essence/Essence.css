@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Quicksand:wght@300&display=swap');
+
+.main {
+    background: black;
+}
+
+.txt h1 {
+    color: yellow;
+}
+
+.txt p {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.l {
+    margin-left: 150px;
+    border-radius: 50%;
+
+}
+
+.m {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+div{
+    background-color: black;
+}

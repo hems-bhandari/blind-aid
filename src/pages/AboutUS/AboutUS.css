@@ -1,0 +1,91 @@
+.main {
+    background: black;
+}
+
+.txt {
+    color: yellow;
+}
+
+.pic {
+    margin-top: 30px;
+}
+
+.dev {
+    color: yellow;
+    text-align: center;
+}
+
+.anu {
+    background-image: url("../../imgb/anurag.jpg");
+    height: 300px;
+    width: 250px;
+    background-size: cover;
+}
+
+.overlay {
+    height: 300px;
+    width: 250px;
+    display: none;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+.anu:hover .overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+
+}
+
+.pra {
+    background-image: url("../../imgb/pratistha.jpeg");
+    height: 300px;
+    width: 250px;
+    background-size: cover;
+    margin-left: 15px;
+}
+
+.pra:hover .overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+
+}
+
+.hems {
+    background-image: url("../../imgb/hems.png");
+    height: 300px;
+    width: 250px;
+    background-size: cover;
+    margin-left: 15px;
+}
+
+.hems:hover .overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+
+}
+
+.sam {
+    background-image: url("../../imgb/samrid.png");
+    height: 300px;
+    width: 250px;
+    background-size: cover;
+    margin-left: 15px;
+}
+
+.sam:hover .overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+}

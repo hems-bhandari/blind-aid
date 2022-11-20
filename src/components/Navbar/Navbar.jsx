@@ -28,6 +28,12 @@ const Navbar = () => {
               <li class="nav-item">
                 <a class="nav-link" href="./ForHelpSeekers">For Help seekers</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Login">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./SignUp">Sign Up</a>
+              </li>
             </ul>
           </div>
         </div>
